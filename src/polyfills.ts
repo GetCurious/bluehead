@@ -64,7 +64,7 @@ import 'core-js/es7/reflect';
 
  /*
  * in IE/Edge developer tools, the addEventListener will also be wrapped by zone.js
- * with the following flag, it will bypass `zone.js` patch for IE/Edge
+ * with the following has_fee, it will bypass `zone.js` patch for IE/Edge
  */
 // (window as any).__Zone_enable_cross_context_check = true;
 

@@ -1,6 +1,62 @@
-<json-schema-form
-  loadExternalAssets="true"
-  framework="bootstrap-4"
-  [(ngModel)]="exampleJsonObject">
-</json-schema-form>
+<!DOCTYPE html>
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 
+
+<header>
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://terang.asia">
+        <img width="102" height="42"
+             src="https://terang.asia/wp-content/uploads/2018/09/cropped-Terang-Logotype-2-2-102x42.png"
+             class="custom-logo" alt="Terang Academy" itemprop="logo"
+             srcset="https://terang.asia/wp-content/uploads/2018/09/cropped-Terang-Logotype-2-2-102x42.png 102w, https://terang.asia/wp-content/uploads/2018/09/cropped-Terang-Logotype-2-2-300x123.png 300w, https://terang.asia/wp-content/uploads/2018/09/cropped-Terang-Logotype-2-2.png 684w"
+             sizes="(max-width: 102px) 100vw, 102px">
+      </a>
+
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+         data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="https://terang.asia" aria-current="page">Home</a>
+        <a class="navbar-item" href="https://terang.asia/about">About</a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">More</a>
+
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://terang.asia/join">Jobs</a>
+            <hr class="navbar-divider">
+          </div>
+        </div>
+      </div>
+
+      <div class="navbar-end">
+        <a class="navbar-item">Partner with Terang</a>
+        <div class="buttons">
+          <a class="button is-primary" href="https://terang.asia/partner">
+            <strong>Sign up</strong>
+          </a>
+          <a class="button is-light">
+            Log in
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+</header>
+
+<body class="has-background-white-ter">
+<router-outlet></router-outlet>
+</body>
+
+<footer></footer>
